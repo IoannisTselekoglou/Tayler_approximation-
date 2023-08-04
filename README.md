@@ -6,10 +6,8 @@ This Python script plots the Taylor polynomial of sin(x) for a given number of t
 
 - [Introduction](#introduction)
 - [Taylor Polynomials](#taylor-polynomials)
-- [Usage](#usage)
 - [Installation](#installation)
 - [Examples](#examples)
-- [Contributing](#contributing)
 - [License](#license)
 
 ## Introduction
@@ -37,7 +35,7 @@ The Taylor approximation is useful for simplifying complex functions and approxi
 
 For simplicity, let's use the sine-wave function to demonstrate how Taylor's approximation works. By increasing the number of gradients we consider, we can achieve a more accurate approximation of the function. In the plots below, I've shown the approximations for T=1, T=3, T=5, T=15, and T=50.
 
-![Figure_1](https://github.com/IoannisTselekoglou/Tayler_approximation-/assets/56356882/2a789e88-b0c3-4f24-a9f4-cb0cae266f37)
+![Figure_2](https://github.com/IoannisTselekoglou/Tayler_approximation-/assets/56356882/1340cba6-5c34-4c8c-bb38-5d5ae2b60311)
 
 As you can observe, the approximated function progressively improves its accuracy in matching the sine function, especially within a small value range. Even for T=5, the approximation already achieves a fairly accurate representation.
 
@@ -45,6 +43,6 @@ As you can observe, the approximated function progressively improves its accurac
 
 1. Clone this repository.
 2. Install the required dependencies using pip:
-    pip install matplotlib
-    pip install numpy 
+    - pip install matplotlib
+    - pip install numpy 
 
