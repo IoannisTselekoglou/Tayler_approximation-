@@ -37,7 +37,7 @@ The Taylor approximation is useful for simplifying complex functions and approxi
 
 For simplicity, let's use the sine-wave function to demonstrate how Taylor's approximation works. By increasing the number of gradients we consider, we can achieve a more accurate approximation of the function. In the plots below, I've shown the approximations for T=1, T=3, T=5, T=15, and T=50.
 
-![taylor_approx](https://github.com/IoannisTselekoglou/Tayler_approximation-/assets/56356882/93e02cd9-8d85-4eee-b77e-7e0caf8a6b5f)
+![Figure_1](https://github.com/IoannisTselekoglou/Tayler_approximation-/assets/56356882/2a789e88-b0c3-4f24-a9f4-cb0cae266f37)
 
 As you can observe, the approximated function progressively improves its accuracy in matching the sine function, especially within a small value range. Even for T=5, the approximation already achieves a fairly accurate representation.
 
