@@ -18,7 +18,7 @@ In this project, I've implemented a Python script to visualize the Taylor polyno
 
 ## Taylor Polynomials
 
-[Taylor approximation, also known as Taylor series expansion, is a mathematical method used to approximate complex functions with simpler ones. It allows us to represent a function as an infinite sum of terms, where each term captures the behavior of the function around a specific point.
+Taylor approximation, also known as Taylor series expansion, is a mathematical method used to approximate complex functions with simpler ones. It allows us to represent a function as an infinite sum of terms, where each term captures the behavior of the function around a specific point.
 
 The basic idea is to find the derivatives of the function at a chosen point (usually denoted as "a"). These derivatives provide information about the function's rate of change at that point. The Taylor approximation then constructs a polynomial around "a" using these derivatives. The more terms we include in the polynomial, the better the approximation becomes.
 
@@ -33,11 +33,13 @@ Here:
 
 The Taylor approximation is useful for simplifying complex functions and approximating their behavior around a particular point. As we include more terms in the polynomial, the approximation becomes more accurate. However, it's important to note that the Taylor series may not converge for some functions or may converge only in a limited range around the chosen point.]
 
-## Exampel and Usage
+## Example 
 
-[For simplicity, let's use the sine-wave function to demonstrate how Taylor's approximation works. By increasing the number of gradients we consider, we can achieve a more accurate approximation of the function. In the plots below, I've shown the approximations for T=1, T=3, T=5, T=15, and T=50.
+For simplicity, let's use the sine-wave function to demonstrate how Taylor's approximation works. By increasing the number of gradients we consider, we can achieve a more accurate approximation of the function. In the plots below, I've shown the approximations for T=1, T=3, T=5, T=15, and T=50.
 
-As you can observe, the approximated function progressively improves its accuracy in matching the sine function, especially within a small value range. Even for T=5, the approximation already achieves a fairly accurate representation.]
+![taylor_approx](https://github.com/IoannisTselekoglou/Tayler_approximation-/assets/56356882/93e02cd9-8d85-4eee-b77e-7e0caf8a6b5f)
+
+As you can observe, the approximated function progressively improves its accuracy in matching the sine function, especially within a small value range. Even for T=5, the approximation already achieves a fairly accurate representation.
 
 ## Installation
 
