@@ -26,9 +26,8 @@ def taylor_sin(grad,x,start):
     return sum(y)
 
 #Plot Taylor_polynomials
-def plot_taylor(range_i, starting_point, grad: list):
-    save_fig = True
-    sin_w = True
+def plot_taylor(range_i, starting_point, grad: list,save_fig = True, sin_w = True):
+
     titles = []
     T_x_total = np.linspace(-range_i,range_i, 1000)
     T_y_total = []
@@ -49,10 +48,7 @@ def plot_taylor(range_i, starting_point, grad: list):
     plt.grid(True)
 
     titles += [f"T_x_{i}" for i in grad]
-
     plt.legend(titles)
-
-    plt.title("Taylor Approximation of Sinwave")
     return plt.show()
 
     #savefig
