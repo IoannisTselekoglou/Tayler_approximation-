@@ -1,0 +1,8 @@
+# Ignore specific files and directories
+.DS_Store
+.README.md.swp
+.taylor.py.swp
+__pycache__/newmathlib.cpython-310.pyc
+__pycache__/taylor.cpython-310.pyc
+assets/.DS_Store
+
