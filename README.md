@@ -29,11 +29,11 @@ Here:
 - f'(a), f''(a), f'''(a), etc., are the derivatives of the function at point "a."
 - (x - a)^n represents the distance from the point "a."
 
-The Taylor approximation is useful for simplifying complex functions and approximating their behavior around a particular point. As we include more terms in the polynomial, the approximation becomes more accurate. However, it's important to note that the Taylor series may not converge for some functions or may converge only in a limited range around the chosen point.]
+The Taylor approximation is useful for simplifying complex functions and approximating their behavior around a particular point. As we include more terms in the polynomial, the approximation becomes more accurate. However, it's important to note that the Taylor series may not converge for some functions or may converge only in a limited range around the chosen point.
 
 ## Example 
 
-For simplicity, let's use the sine-wave function to demonstrate how Taylor's approximation works. By increasing the number of gradients we consider, we can achieve a more accurate approximation of the function. In the plots below, I've shown the approximations for T=1, T=3, T=5, T=15, and T=50.
+For simplicity, let's use the sine-wave function to demonstrate how Taylor's approximation works. By increasing the number of gradients we consider, we can achieve a more accurate approximation of the function. In the plots below, I've shown the approximations for T=1, T=3, T=5, T=15, and.
 
 ![Taylor_approx_all](https://github.com/IoannisTselekoglou/Tayler_approximation-/assets/56356882/c22e745a-41b1-4f40-b64a-44c54a1e0616)
 
@@ -49,4 +49,12 @@ As you can observe, the approximated function progressively improves its accurac
 2. Install the required dependencies using pip:
     - pip install matplotlib
     - pip install numpy 
+
+
+## License
+
+- [NumPy](https://numpy.org): A library for numerical computing in Python. License: [BSD 3-Clause License](licenses/LICENSE-numpy.txt).
+
+- [Matplotlib](https://matplotlib.org): A plotting library for Python. License: [Matplotlib License](licenses/LICENSE-matplotlib.txt).
+
 
