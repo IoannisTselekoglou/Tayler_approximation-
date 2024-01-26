@@ -53,8 +53,8 @@ As you can observe, the approximated function progressively improves its accurac
 
 ## License
 
-- [NumPy](https://numpy.org): A library for numerical computing in Python. License: [BSD 3-Clause License](licenses/LICENSE-numpy.txt).
+- [NumPy](https://numpy.org): A open-source library for numerical computing in Python.
+- [Matplotlib](https://matplotlib.org): A open-source plotting library for Python. License.
 
-- [Matplotlib](https://matplotlib.org): A plotting library for Python. License: [Matplotlib License](licenses/LICENSE-matplotlib.txt).
 
 
